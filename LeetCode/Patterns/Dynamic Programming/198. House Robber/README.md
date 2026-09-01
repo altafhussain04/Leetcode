@@ -1,6 +1,6 @@
 # 📝 198. House Robber (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/house-robber/)
+🔗 [Problem Link](https://leetcode.com/problems/house-robber)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
