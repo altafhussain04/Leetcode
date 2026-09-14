@@ -8,7 +8,7 @@
 Array, Backtracking, Algorithm X
 
 ### 🚀 Performance
-- **Runtime:** 100 ms
+- **Runtime:** 2 ms
 - **Memory:** 46.5 MB
 
 ---
