@@ -62,10 +62,10 @@ class Solution {
 
 
         ListNode prev=null;
-        ListNode curr=head;
+        ListNode curr=middle;
         ListNode list2=revlist(prev, curr);
 
-        ListNode temp2=middle;
+        ListNode temp2=head;
         ListNode temp3=list2;
 
         while(temp2!=null && temp3!=null){
