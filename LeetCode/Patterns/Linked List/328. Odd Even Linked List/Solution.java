@@ -10,6 +10,12 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
+        if(head==null){
+            return head;
+        }
+        if(head.next==null){
+            return head;
+        }
 
         ListNode oddIndex=head;
         ListNode evenIndex=head.next;
