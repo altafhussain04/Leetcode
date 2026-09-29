@@ -1,6 +1,6 @@
 # 📝 2058. Find the Minimum and Maximum Number of Nodes Between Critical Points (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+🔗 [Problem Link](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
