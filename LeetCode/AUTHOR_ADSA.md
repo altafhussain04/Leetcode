@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs Advanced DSA interview preparation list.
 
 ## Progress
-- **Completed:** 5 / 65 (7.7%)
+- **Completed:** 6 / 65 (9.2%)
 
 ---
 
@@ -38,7 +38,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 - [x] [Palindrome Linked List](./Java/Easy/234. Palindrome Linked List/)
 - [ ] Reorder List
 - [ ] Next Greater Node In Linked List
-- [ ] Double a Number Represented as a Linked List
+- [x] [Double a Number Represented as a Linked List](./Java/Medium/2816. Double a Number Represented as a Linked List/)
 
 ### 📂 Module  1.5: Cycle, Intersection & Struc
 - [x] [Linked List Cycle](./Java/Easy/141. Linked List Cycle/)
