@@ -31,6 +31,7 @@ class Solution {
                 arr.add(index);
             }
             curr=curr.next;
+            prev=prev.next;
             index++;
         }
 
