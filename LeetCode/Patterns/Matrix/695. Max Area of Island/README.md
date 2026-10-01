@@ -1,6 +1,6 @@
 # 📝 695. Max Area of Island (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/max-area-of-island/)
+🔗 [Problem Link](https://leetcode.com/problems/max-area-of-island)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
