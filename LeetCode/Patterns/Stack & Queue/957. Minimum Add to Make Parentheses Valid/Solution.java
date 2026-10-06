@@ -1,23 +1,39 @@
 class Solution {
     public int minAddToMakeValid(String s) {
 
-        int Leftcount=0;
-        int Rightcount=0;
-        int length=s.length();
-        for(int i=0; i<length; i++){
-             char parenthesis=s.charAt(i);
-             if(parenthesis=='('){
-                Leftcount++;
-             }
-             else{
-                Rightcount++;
-             }
-             
+        int len=s.length();
 
+        Stack<Character> st=new Stack<>();
+        int count=0;
+
+        for(int i=0; i<len; i++){
+
+            if(s.charAt(i)=='('){
+                st.push('(');
+                count++;
+
+            }
+            else{
+                if(st.isEmpty() || st.peek()==')'){
+
+                     st.push(')');
+                     count++;
+
+
+                   
+                }
+                else{
+                    st.pop();
+                    count--;
+                }
+                
+                
+            }
+
+            
         }
-        int required=Math.abs(Leftcount-Rightcount);
+        return count;
 
-        return required;
-        
+       
     }
 }
