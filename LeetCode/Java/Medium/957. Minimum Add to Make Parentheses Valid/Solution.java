@@ -10,13 +10,13 @@ class Solution {
 
             if(s.charAt(i)=='('){
                 st.push('(');
-                count++;
+                
 
             }
             else{
-                if(st.isEmpty() || st.peek()==')'){
+                if(st.isEmpty() ){
 
-                     st.push(')');
+                     
                      count++;
 
 
@@ -24,13 +24,17 @@ class Solution {
                 }
                 else{
                     st.pop();
-                    count--;
+                   
                 }
                 
                 
             }
 
             
+        }
+        while(!st.isEmpty()){
+            st.pop();
+            count++;
         }
         return count;
 
