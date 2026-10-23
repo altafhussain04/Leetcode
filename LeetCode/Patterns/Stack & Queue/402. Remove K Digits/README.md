@@ -1,6 +1,6 @@
 # 📝 402. Remove K Digits (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/remove-k-digits/?utm_source=chatgpt.com)
+🔗 [Problem Link](https://leetcode.com/problems/remove-k-digits/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 String, Stack, Greedy, Monotonic Stack
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 26 ms
+- **Memory:** 47.2 MB
 
 ---
 
