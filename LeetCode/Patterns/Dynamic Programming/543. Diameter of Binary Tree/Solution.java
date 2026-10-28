@@ -15,6 +15,7 @@
  */
 class Solution {
     int height(TreeNode root){
+        
         if(root==null){
             return 0;
         }
