@@ -16,6 +16,7 @@
 class Solution {
 
     boolean Balance=true;
+    boolean B=true;
     int checkBalance(TreeNode  root){
         if(root==null){
             return 0;
@@ -24,9 +25,11 @@ class Solution {
         int Left=checkBalance(root.left);
         int Right=checkBalance(root.right);
         if(Math.abs(Left-Right)>1){
-            Balance=false;
+             B=false;
             
         }
+        Balance=(Balance && B);
+       
         return Math.max(Left,Right)+1;
     }
     public boolean isBalanced(TreeNode root) {
