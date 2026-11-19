@@ -29,7 +29,7 @@ class Solution {
         ListNode head1=reverse(slow);
         ListNode temp=head1;
         ListNode curr=head;
-        int sum=0;
+        int sum=Integer.MIN_VALUE;
         while(temp!=null){
               sum=Math.max(sum,curr.val+temp.val);
               curr=curr.next;
